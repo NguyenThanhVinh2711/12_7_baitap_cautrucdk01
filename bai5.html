@@ -10,7 +10,7 @@
     let gk=Number(prompt("Điểm giữa kỳ"))
     let ck=Number(prompt("Điểm cuối kỳ"))
     tb =(kt+gk+ck)/3
-    dtb= (tb>=8?"giỏi":8>tb>=6?"khá":6>tb?"trung bình":"Vô học")
+    dtb= (tb>=8?"giỏi":8>tb>=6?"khá":6>tb>=3?"trung bình":3>tb?"kém":'')
     document.write(dtb)
 </script>
 </body>
